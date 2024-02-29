@@ -144,18 +144,27 @@ body {
 .page2 .box1 {
     display: flex;
     flex-direction:row;
+    justify-content: center;
+    align-items: center;
     margin: 10%;
 }
 .page2 .box1 .img {
-    width: 50%;
-    height: 50vh;
+    width: 30%;
+    height: 60vh;
+    border: 1px solid white;
+}
+.page2 .box1 .img >img {
+    width: 100%;
+    object-fit: fill;
+
 }
 .page2 .box1 .text {
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    margin-left: 2rem;
 }
 .page2 .box1 .text >h1 {
     display: flex;
@@ -171,7 +180,7 @@ body {
     justify-content: flex-start;
     font-size: 20px;
     color: var(--color-font);
-
+    text-align: justify;
  }
 
 
