@@ -151,7 +151,6 @@ body {
 .page2 .box1 .img {
     width: 30%;
     height: 60vh;
-    border: 1px solid white;
 }
 .page2 .box1 .img >img {
     width: 100%;
@@ -181,6 +180,46 @@ body {
     font-size: 20px;
     color: var(--color-font);
     text-align: justify;
+ }
+ .page4 {
+    width: 100%;
+    height: 100vh;
+    background: var(--color-secundary);
+ }
+ .page4 header {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+ }
+ .page4 header h3 {
+    color: var(--color-font);
+    font-size: 30px;
+    font-weight: 900;
+ }
+ .page4 main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+
+ }
+
+ .page4 main .imgbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 70%;
+    height: 90vh;
+    gap: 1.5rem;
+    padding-bottom: 10rem;
+
+ }
+ .page4 main .imgbox img {
+    display: flex;
+    width: 340px;
+    object-fit: contain;    
  }
 
 
