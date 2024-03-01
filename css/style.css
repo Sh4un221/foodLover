@@ -183,6 +183,62 @@ body {
     color: var(--color-font);
     text-align: justify;
  }
+ .page3 {
+    width: 100%;
+    height: 100vh;
+    background: var(--color-secundary);
+ }
+ .page3 .back img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+    z-index: 1;
+ }
+ .page3 .box2 {
+    width: 100%;
+    height: 30vh;
+    z-index: 3;
+    display: flex;
+
+ }
+ .page3 .box2 img {
+    position: absolute;
+    width: 200px;
+    right: 0;
+ }
+ .page3 .box2 .text{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    justify-content: center;
+    color: var(--color-font);
+    padding-left: 5rem;
+    padding-top: 5rem;
+    z-index: 2;
+ }
+ .page3 .box2 .text h4 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+ }
+ .page3 .box2 .text p{
+    width: 80%;
+    font-size: 20px;
+ }
+ .page3 .box3 .img1 img {
+    position: absolute;
+    margin-top: 6rem;
+    width: 500px;
+    right: 0;
+    z-index: 2;
+    
+ }
+ .page3 .box3 .img2 img {
+    position: absolute;
+    margin-top: 17.5rem;
+    width: 300px;
+    z-index: 2;
+ }
  .page4 {
     width: 100%;
     height: 100vh;
